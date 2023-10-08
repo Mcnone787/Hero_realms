@@ -1,0 +1,68 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .hijo {
+        margin: 0 auto;
+      }
+      .mostrarvida{
+        text-align: center;
+    font-size: 50px;
+      }
+      .arrows{
+        height: 31px;
+    display: inline-block;
+    float: right;
+      }
+      .arrowsup{
+        height: 31px;
+    display: inline-block;
+    float: left;
+      }
+      .registrobtn{
+        padding: 20px;
+    background-color: rgb(255 255 255 / 58%);
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    margin: 0 auto;
+      }
+      </style>
+</head>
+<body>
+<img src="img/arrow-down-solid.svg" alt="" class="arrows">
+<div style="border: solid;">
+    <div style="  
+    display: flex;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    ">
+    <div style="display: block;">
+
+    
+<h2 >Jugadores a jugar nya</h2>
+    </div>
+<select name="1" id="jugadores" multiple style="display: block;    display: block;
+/* width: 50%; */
+text-align: center;
+padding: 20px;" >
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+<button id="btn_sumbit">Enviar</button>
+</div>
+</div>
+<hr>
+<div class="contenedor">
+    <div class="hijo" id="padrevidas" style=""></div>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>
